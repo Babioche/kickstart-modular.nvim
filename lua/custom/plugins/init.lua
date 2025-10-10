@@ -3,5 +3,5 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  require 'scottmckendry/cyberdream'
+  require 'scottmckendry/cyberdream.nvim'
 }
