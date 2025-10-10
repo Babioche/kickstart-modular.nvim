@@ -3,5 +3,9 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  require 'scottmckendry/cyberdream.nvim'
+{
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+}
 }
