@@ -4,6 +4,7 @@
 --  For more options, you can see `:help option-list`
 vim.opt.makeprg = 'g++ -Wall -Wextra -g %:p -o %:r'
 vim.o.shell = "powershell.exe"
+vim.o.shellcmdflag = "-NoProfile -Command"
 
 -- Make line numbers default
 vim.o.number = true
