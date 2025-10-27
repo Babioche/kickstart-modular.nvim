@@ -212,7 +212,7 @@ return {
         clangd = {
           cmd = {
       'clangd',
-      '--query-driver=C:/msys64/mingw64/bin/g++.exe'
+      '--query-driver=C:/msys64/ucrt64/bin/g++.exe'
     },},
         -- gopls = {},
         -- pyright = {},
